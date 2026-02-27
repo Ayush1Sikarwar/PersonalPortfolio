@@ -1,0 +1,42 @@
+[
+  {
+    "id": 1,
+    "title": "E-Commerce Platform",
+    "description": "A full-stack e-commerce platform with user authentication, product management, shopping cart, and payment integration.",
+    "tags": ["Next.js", "TypeScript", "MongoDB", "Stripe", "Tailwind CSS"],
+    "github": "https://github.com/Ayush1Sikarwar",
+    "live": ""
+  },
+  {
+    "id": 2,
+    "title": "Real-Time Chat App",
+    "description": "A real-time messaging application with WebSocket support, rooms, and user presence indicators.",
+    "tags": ["React", "Node.js", "Socket.io", "Express", "PostgreSQL"],
+    "github": "https://github.com/Ayush1Sikarwar",
+    "live": ""
+  },
+  {
+    "id": 3,
+    "title": "Task Management Dashboard",
+    "description": "A Kanban-style project management tool with drag-and-drop, team collaboration, and analytics.",
+    "tags": ["React", "TypeScript", "Redux", "Node.js", "MySQL"],
+    "github": "https://github.com/Ayush1Sikarwar",
+    "live": ""
+  },
+  {
+    "id": 4,
+    "title": "Weather Forecast App",
+    "description": "A beautiful weather application with 7-day forecasts, location search, and animated weather visualizations.",
+    "tags": ["Next.js", "OpenWeather API", "Framer Motion", "Tailwind CSS"],
+    "github": "https://github.com/Ayush1Sikarwar",
+    "live": ""
+  },
+  {
+    "id": 5,
+    "title": "Dev Blog Platform",
+    "description": "A developer blog platform with MDX support, syntax highlighting, dark mode, and SEO optimization.",
+    "tags": ["Next.js", "MDX", "TypeScript", "Tailwind CSS", "Vercel"],
+    "github": "https://github.com/Ayush1Sikarwar",
+    "live": ""
+  }
+]
