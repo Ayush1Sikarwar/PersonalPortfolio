@@ -1,0 +1,93 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --bg-primary: #0a0a0a;
+  --bg-secondary: #111111;
+  --bg-card: #161616;
+  --accent-blue: #00d4ff;
+  --accent-purple: #8b5cf6;
+  --text-primary: #ffffff;
+  --text-secondary: #a0a0a0;
+  --glass-bg: rgba(255, 255, 255, 0.05);
+  --glass-border: rgba(255, 255, 255, 0.1);
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: var(--bg-primary);
+  color: var(--text-primary);
+  font-family: var(--font-space-grotesk), 'Inter', ui-sans-serif, system-ui, sans-serif;
+  overflow-x: hidden;
+}
+
+@keyframes float {
+  0% { transform: translateY(0px) translateX(0px); }
+  33% { transform: translateY(-20px) translateX(10px); }
+  66% { transform: translateY(-10px) translateX(-10px); }
+  100% { transform: translateY(0px) translateX(0px); }
+}
+
+@keyframes pulse-glow {
+  0%, 100% { box-shadow: 0 0 20px rgba(0, 212, 255, 0.4); }
+  50% { box-shadow: 0 0 40px rgba(0, 212, 255, 0.8); }
+}
+
+.animate-float {
+  animation: float 8s ease-in-out infinite;
+}
+
+.animate-float-delayed {
+  animation: float 10s ease-in-out infinite 2s;
+}
+
+.animate-pulse-glow {
+  animation: pulse-glow 2s ease-in-out infinite;
+}
+
+.glass {
+  background: var(--glass-bg);
+  border: 1px solid var(--glass-border);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+}
+
+.neon-text-blue {
+  color: var(--accent-blue);
+  text-shadow: 0 0 20px rgba(0, 212, 255, 0.5);
+}
+
+.neon-text-purple {
+  color: var(--accent-purple);
+  text-shadow: 0 0 20px rgba(139, 92, 246, 0.5);
+}
+
+.gradient-text {
+  background: linear-gradient(135deg, #00d4ff, #8b5cf6);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+::-webkit-scrollbar {
+  width: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--bg-primary);
+}
+
+::-webkit-scrollbar-thumb {
+  background: linear-gradient(to bottom, #00d4ff, #8b5cf6);
+  border-radius: 3px;
+}
