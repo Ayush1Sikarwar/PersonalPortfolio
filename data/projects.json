@@ -1,0 +1,22 @@
+[
+  {
+    "id": 1,
+    "title": "Nova – Multilingual AI Voice Bot",
+    "description": "An intelligent multilingual AI voice assistant capable of understanding and responding in multiple languages using NLP and speech recognition.",
+    "longDescription": "Nova is an advanced AI-powered voice assistant built with Python and Flask. It leverages state-of-the-art NLP models for intent recognition and supports real-time speech-to-text and text-to-speech in multiple languages. The system uses a REST API backend to process voice commands and return intelligent responses.",
+    "tech": ["Python", "Flask", "AI/ML", "NLP", "Speech Recognition"],
+    "github": "https://github.com/Ayush1Sikarwar",
+    "demo": "#",
+    "featured": true
+  },
+  {
+    "id": 2,
+    "title": "AI Portfolio Website",
+    "description": "A premium dark-themed personal portfolio with Next.js, GSAP animations, and Framer Motion.",
+    "longDescription": "Built with Next.js 14, Tailwind CSS, Framer Motion, and GSAP. Features scroll-triggered animations, glassmorphism UI, dynamic project loading, and a contact form with backend API.",
+    "tech": ["Next.js", "TypeScript", "Tailwind CSS", "Framer Motion", "GSAP"],
+    "github": "https://github.com/Ayush1Sikarwar/PersonalPortfolio",
+    "demo": "#",
+    "featured": true
+  }
+]
