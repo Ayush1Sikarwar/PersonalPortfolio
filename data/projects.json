@@ -13,7 +13,7 @@
     "id": 2,
     "title": "AI Portfolio Website",
     "description": "A premium dark-themed personal portfolio with Next.js, GSAP animations, and Framer Motion.",
-    "longDescription": "Built with Next.js 14, Tailwind CSS, Framer Motion, and GSAP. Features scroll-triggered animations, glassmorphism UI, dynamic project loading, and a contact form with backend API.",
+    "longDescription": "Built with Next.js 15, Tailwind CSS, Framer Motion, and GSAP. Features scroll-triggered animations, glassmorphism UI, dynamic project loading, and a contact form with backend API.",
     "tech": ["Next.js", "TypeScript", "Tailwind CSS", "Framer Motion", "GSAP"],
     "github": "https://github.com/Ayush1Sikarwar/PersonalPortfolio",
     "demo": "#",
